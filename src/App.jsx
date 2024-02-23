@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { ThemeProvider } from "./contexts/theme.js";
-import ThemeButton from "./components/ThemeButton";
-import Card from "./components/Card";
+import { ThemeButton } from "./components/ThemeButton";
+import { Card } from "./components/Card";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
